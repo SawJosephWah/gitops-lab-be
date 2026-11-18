@@ -11,8 +11,8 @@ permissions:
   contents: read
 
 env:
-  AWS_REGION: us-east-1
-  ECR_REPOSITORY: gitops-demo-backend
+  AWS_REGION: ap-southeast-1
+  ECR_REPOSITORY: gitops-backend
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
 
 jobs:
